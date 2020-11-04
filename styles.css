@@ -1,8 +1,8 @@
 /* Global Layout Set-up */
-* { 
+* {
   box-sizing: border-box;
 }
-  
+
 body {
   margin: 0;
   padding: 0;
@@ -84,7 +84,7 @@ header .profile-image:hover {
   display: table;
   margin: 10px auto;
   opacity: 70%;
-} 
+}
 .location {
   background-color: #222;
   color: yellow;
@@ -119,7 +119,6 @@ header .profile-image:hover {
 .imageinfo {
   width: 100%;
   padding: 10px;
-  align: left;
 }
 ul.skills {
   padding: 0;
@@ -188,10 +187,10 @@ a.social:hover {
 
 /* Styles for larger screens */
 @media screen and (min-width: 720px) {
-  
+
   .flex {
       display: -ms-flexbox;      /* TWEENER - IE 10 */
-      display: flex; 
+      display: flex;
       max-width: 1200px;
       -ms-flex-pack: distribute;
       justify-content: space-around;
@@ -223,4 +222,3 @@ a.social:hover {
   }
 
 }
-
